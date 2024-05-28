@@ -8,7 +8,7 @@ class Database {
 		$this->user = "root";
 		$this->pass = "";
 		$this->host = "localhost";
-		$this->ddbb = "bookmedik";
+		$this->ddbb = "citas_medicas";
 	}
 
 	function connect(){

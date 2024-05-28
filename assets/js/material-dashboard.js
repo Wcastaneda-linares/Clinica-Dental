@@ -4,7 +4,7 @@
  *
  * =========================================================
  *
- * Copyright 2016 Creative Tim (http://www.creative-tim.com/product/material-dashboard)
+ * Copyright2024 Creative Tim (http://www.creative-tim.com/product/material-dashboard)
  *
  *
  *                       _oo0oo_

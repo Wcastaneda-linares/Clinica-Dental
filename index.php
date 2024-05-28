@@ -1,6 +1,6 @@
 <?php
 /**
-* @author evilnapsis
+* @author Grupo #1
 **/
 
 define("ROOT", dirname(__FILE__));

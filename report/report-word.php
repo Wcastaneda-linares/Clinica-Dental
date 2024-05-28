@@ -59,7 +59,7 @@ $word->addTableStyle('table1', $styleTable,$styleFirstRow);
 $section1->addText("");
 $section1->addText("");
 $section1->addText("");
-$section1->addText("Generado por BookMedik v2.0");
+$section1->addText("Generado por Clinica Dental Gill & Torres");
 $filename = "report-".time().".docx";
 #$word->setReadDataOnly(true);
 $word->save($filename,"Word2007");

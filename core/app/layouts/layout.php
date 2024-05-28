@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-  <title>BookMedik - Dashboard</title>
+  <title>Clinica Dental - Dashboard</title>
 
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
@@ -29,7 +29,7 @@
       <div class="sidebar" data-color="blue">
       <div class="logo">
         <a href="./" class="simple-text">
-          BookMedik
+          Clinica Dental <br>Gill & Torres
         </a>
       </div>
 
@@ -131,41 +131,10 @@
 </div>
       </div>
 
-      <footer class="footer">
-        <div class="container-fluid">
-          <nav class="pull-left">
-            <ul>
-              <li>
-                <a href="./?view=changelog" >
-                  Log de cambios
-                </a>
-              </li>
-              <li>
-                <a href="http://evilnapsis.com/" target="_blank">
-                  Evilnapsis
-                </a>
-              </li>
-        <!--
-              <li>
-                <a href="#">
-                  Company
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  Portfolio
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                   Blog
-                </a>
-              </li>
-          -->
-            </ul>
-          </nav>
-          <p class="copyright pull-right">
-            <a href="http://evilnapsis.com" target="_blank">Evilnapsis</a> &copy; 2016 
+      <footer class="footer" style="text-align: center;">
+        <div class="container-fluid" style="text-align: center;">
+          <p class="copyright" style="text-align: center;">
+            Grupo #1 &copy; 2024
           </p>
         </div>
       </footer>

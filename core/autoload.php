@@ -1,6 +1,6 @@
 <?php
 /**
-* @author evilnapsis
+* @author Grupo #1
 * @brief Llama todos los archivos del framework LegoBox
 **/
 

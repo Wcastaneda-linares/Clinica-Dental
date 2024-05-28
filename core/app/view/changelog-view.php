@@ -1,7 +1,7 @@
 <div class="row">
 <div class="col-md-12">
 <h1>Sistema de Citas Medicas</h1>
-<p>Bienvenido a <b>BookMedik</b> un Sistema de Citas Medicas util para consultorios medicos y/o medicos independientes.</p>
+<p>Bienvenido a <b>Clinica Dental Gill & Torres</b> un Sistema de Citas Medicas util para consultorios medicos y/o medicos independientes.</p>
 <h4> v2.0</h4>
 <ul>
 	<li>Nuevos campos en pacientes: genero, fecha de nacimiento, enfermedad, medicamento, alergia</li>
@@ -25,6 +25,6 @@
 	<li>Historial de Citas por Medico</li>
 	<li>Buscador avanzado por : Palabra clave, medico, paciente y fecha.</li>
 </ul>
-<p>Evilnapsis &copy; 2015</p>
+<p>Grupo #1 &copy; 2015</p>
 </div>
 </div>

@@ -1,8 +1,8 @@
 <?php
 /**
-* BookMedik
-* @author evilnapsis
-* @url http://evilnapsis.com/about/
+* Clinica Dental Gill & Torres
+* @author Grupo #1
+* @url http://Grupo #1.com/about/
 **/
 
 if(count($_POST)>0){

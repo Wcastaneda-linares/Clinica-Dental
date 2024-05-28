@@ -1,6 +1,6 @@
-Author: evilnapsis
+Author: Grupo #1
 Proyecto: lb-admin
-Fecha de Lanzamiento: 2016-11-22
+Fecha de Lanzamiento:2024-11-22
 
 Hola como estas, gracias por la compra o descarga de este paquete, a continuacion te escribo las instrucciones de instalacion:
 
@@ -12,5 +12,5 @@ Login : http://localhost/lb-admin/
 Usuario: admin
 Password: admin
 
-Dudas y sugerencias a mi direccion email evilnapsis@gmail.com
-Powered By http://evilnapsis.com
+Dudas y sugerencias a mi direccion email Grupo #1@gmail.com
+Powered By http://Grupo #1.com

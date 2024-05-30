@@ -35,7 +35,7 @@
 			<table class="table table-bordered table-hover">
 			<thead>
 			<th>Nombre completo</th>
-			<th>Nick</th>
+			<th>Alias</th>
 			<th>Email</th>
 			<th>Activo</th>
 			<th>Admin</th>

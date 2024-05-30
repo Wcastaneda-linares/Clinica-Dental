@@ -30,7 +30,7 @@ $payments = PaymentData::getAll();
   <?php endforeach; ?>
 </select>
     </div>
-    <label for="inputEmail1" class="col-lg-2 control-label">Medico</label>
+    <label for="inputEmail1" class="col-lg-2 control-label">Dentista</label>
     <div class="col-lg-4">
 <select name="medic_id" class="form-control" required>
 <option value="">-- SELECCIONE --</option>

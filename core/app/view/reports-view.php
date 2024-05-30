@@ -33,7 +33,7 @@ $payments = PaymentData::getAll();
 		<div class="input-group">
 		  <span class="input-group-addon"><i class="fa fa-support"></i></span>
 <select name="medic_id" class="form-control">
-<option value="">MEDICO</option>
+<option value="">Dentista</option>
   <?php foreach($medics as $p):?>
     <option value="<?php echo $p->id; ?>" <?php if(isset($_GET["medic_id"]) && $_GET["medic_id"]==$p->id){ echo "selected"; } ?>><?php echo $p->id." - ".$p->name." ".$p->lastname; ?></option>
   <?php endforeach; ?>
@@ -142,7 +142,7 @@ if($_GET["status_id"]!=""||$_GET["pacient_id"]!="" ||$_GET["medic_id"]!="" ||$_G
 			<thead>
 			<th>Asunto</th>
 			<th>Paciente</th>
-			<th>Medico</th>
+			<th>Dentista</th>
 			<th>Fecha</th>
 			<th>Estado</th>
 			<th>Pago</th>
@@ -161,7 +161,7 @@ if($_GET["status_id"]!=""||$_GET["pacient_id"]!="" ||$_GET["medic_id"]!="" ||$_G
 				<td><?php echo $user->date_at." ".$user->time_at; ?></td>
 				<td><?php echo $user->getStatus()->name; ?></td>
 				<td><?php echo $user->getPayment()->name; ?></td>
-				<td>$ <?php echo number_format($user->price,2,".",",");?></td>
+				<td>Q <?php echo number_format($user->price,2,".",",");?></td>
 				</tr>
 				<?php
 				$total += $user->price;
@@ -170,9 +170,8 @@ if($_GET["status_id"]!=""||$_GET["pacient_id"]!="" ||$_GET["medic_id"]!="" ||$_G
 			echo "</table>";
 			?>
 			<div class="panel-body">
-			<h1>Total: $ <?php echo number_format($total,2,".",",");?></h1>
-			<a href="./report/report-word.php" class="btn btn-default"><i class="fa fa-download"> Descargar (.docx)</i></a>
-
+			<h1>Total: Q <?php echo number_format($total,2,".",",");?></h1>
+			<a href="./report/report-pdf.php" class="btn btn-default"><i class="fa fa-download"> Descargar (.pdf)</i></a>
 			</div>
 			<?php
 

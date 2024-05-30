@@ -50,7 +50,7 @@ $medics = MedicData::getAll();
 		<div class="input-group">
 		  <span class="input-group-addon"><i class="fa fa-support"></i></span>
 <select name="medic_id" class="form-control">
-<option value="">MEDICO</option>
+<option value="">Dentista</option>
   <?php foreach($medics as $p):?>
     <option value="<?php echo $p->id; ?>" <?php if(isset($_GET["medic_id"]) && $_GET["medic_id"]==$p->id){ echo "selected"; } ?>><?php echo $p->id." - ".$p->name." ".$p->lastname; ?></option>
   <?php endforeach; ?>
@@ -117,7 +117,7 @@ if($_GET["q"]!=""||$_GET["pacient_id"]!="" ||$_GET["medic_id"]!="" ){
 			<thead>
 			<th>Asunto</th>
 			<th>Paciente</th>
-			<th>Medico</th>
+			<th>Dentista</th>
 			<th>Fecha</th>
 			<th></th>
 			</thead>

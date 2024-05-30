@@ -29,7 +29,7 @@ $pacient = PacientData::getById($_GET["id"]);
 			<thead>
 			<th>Asunto</th>
 			<th>Paciente</th>
-			<th>Medico</th>
+			<th>Dentista</th>
 			<th>Fecha</th>
 			</thead>
 			<?php

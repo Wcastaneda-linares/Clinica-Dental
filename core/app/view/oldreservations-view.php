@@ -24,7 +24,7 @@
 			<thead>
 			<th>Asunto</th>
 			<th>Paciente</th>
-			<th>Medico</th>
+			<th>Dentista</th>
 			<th>Fecha</th>
 			<th></th>
 			</thead>

@@ -5,7 +5,7 @@ $pacient = MedicData::getById($_GET["id"]);
 
 <div class="card">
   <div class="card-header" data-background-color="blue">
-      <h4 class="title">Historial de Citas del Medico</h4>
+      <h4 class="title">Historial de Citas del Dentista</h4>
 <p>Medico: <?php echo $pacient->name." ".$pacient->lastname;?></p>
   </div>
   <div class="card-content table-responsive">
@@ -30,7 +30,7 @@ $pacient = MedicData::getById($_GET["id"]);
 			<thead>
 			<th>Asunto</th>
 			<th>Paciente</th>
-			<th>Medico</th>
+			<th>Dentista</th>
 			<th>Fecha</th>
 			</thead>
 			<?php
@@ -41,7 +41,7 @@ $pacient = MedicData::getById($_GET["id"]);
 				<tr>
 				<td><?php echo $user->title; ?></td>
 				<td><?php echo $pacient->name." ".$pacient->lastname; ?></td>
-				<td><?php echo $medic->name." ".$pacient->lastname; ?></td>
+				<td><?php echo $medic->name." ".$medic->lastname; ?></td>
 				<td><?php echo $user->date_at." ".$user->time_at; ?></td>
 				</tr>
 				<?php

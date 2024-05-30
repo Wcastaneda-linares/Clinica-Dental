@@ -29,7 +29,7 @@ $payments = PaymentData::getAll();
     </div>
   </div>
   <div class="form-group">
-    <label for="inputEmail1" class="col-lg-2 control-label">Medico</label>
+    <label for="inputEmail1" class="col-lg-2 control-label">Dentista</label>
     <div class="col-lg-10">
 <select name="medic_id" class="form-control" required>
 <option value="">-- SELECCIONE --</option>
@@ -97,7 +97,7 @@ $payments = PaymentData::getAll();
     <label for="inputEmail1" class="col-lg-2 control-label">Costo</label>
     <div class="col-lg-10">
 <div class="input-group">
-  <span class="input-group-addon"><i class="fa fa-usd"></i></span>
+  <span class="input-group-addon">Q</span>
   <input type="text" class="form-control" name="price" placeholder="Costo">
 </div>
     </div>

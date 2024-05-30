@@ -20,6 +20,17 @@
 <script src='assets/fullcalendar/fullcalendar.min.js'></script>
 <?php endif; ?>
 
+
+<style>
+    .logo img {
+      max-width: 100px;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+
+
+
 </head>
 
 <body>
@@ -29,8 +40,9 @@
       <div class="sidebar" data-color="blue">
       <div class="logo">
         <a href="./" class="simple-text">
-          Clinica Dental <br>Gill & Torres
+          Clínica Dental <br>Gil&Torres
         </a>
+        <img src="imagenes/logo.jpg" alt="Logo">
       </div>
 
         <div class="sidebar-wrapper">
@@ -56,19 +68,25 @@
                   <li>
                       <a href="./?view=medics">
                           <i class="fa fa-support"></i>
-                          <p>Medicos</p>
+                          <p>Dentistas</p>
                       </a>
                   </li>
                   <li>
                       <a href="./?view=categories">
                           <i class="fa fa-th-list"></i>
-                          <p>Categorias</p>
+                          <p>Categorías</p>
                       </a>
                   </li>
                   <li>
                       <a href="./?view=reports">
                           <i class="fa fa-area-chart"></i>
                           <p>Reporte de Citas</p>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="./?view=generateprescription">
+                          <i class="fa fa-file-text"></i>
+                          <p>Receta Médica</p>
                       </a>
                   </li>
                   <li>
@@ -91,7 +109,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="./"><b>Sistema de Citas Medicas</b></a>
+            <a class="navbar-brand" href="./"><b>Sistema de Citas Clinica Dental</b></a>
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -178,3 +196,8 @@
   </script>
 
 </html>
+
+
+
+
+

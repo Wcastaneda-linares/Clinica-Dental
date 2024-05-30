@@ -6,7 +6,7 @@ $categories = CategoryData::getAll();
 
 <div class="card">
   <div class="card-header" data-background-color="blue">
-      <h4 class="title">Nuevo Medico</h4>
+      <h4 class="title">Nuevo Dentista</h4>
   </div>
   <div class="card-content table-responsive">
 		<form class="form-horizontal" method="post" id="addproduct" action="index.php?view=addmedic" role="form">
@@ -56,7 +56,7 @@ $categories = CategoryData::getAll();
   </div>
   <div class="form-group">
     <div class="col-lg-offset-2 col-lg-10">
-      <button type="submit" class="btn btn-primary">Agregar Medico</button>
+      <button type="submit" class="btn btn-primary">Agregar Dentista</button>
     </div>
   </div>
 </form>

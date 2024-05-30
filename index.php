@@ -14,6 +14,7 @@ error_reporting(E_ALL);
 
 include "core/autoload.php";
 
+
 ob_start();
 session_start();
 Core::$root="";
@@ -24,5 +25,6 @@ Core::$root="";
 $lb = new Lb();
 $lb->start();
 
+include "header.php";
 
 ?>

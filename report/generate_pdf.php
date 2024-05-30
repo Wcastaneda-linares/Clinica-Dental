@@ -3,11 +3,11 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-require_once $_SERVER['DOCUMENT_ROOT'] . '/Clinica-Dental/core/autoload.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/Clinica-Dental/core/controller/Executor.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/Clinica-Dental/core/app/model/PacientData.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/Clinica-Dental/core/app/model/MedicData.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/Clinica-Dental/vendor/autoload.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/core/autoload.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/core/controller/Executor.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/core/app/model/PacientData.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/core/app/model/MedicData.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 
 use Dompdf\Dompdf;
 use Dompdf\Options;
@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $clinic_address_1 = "Barrio Nueva Democracia, cuarta calle 034 Zona 2";
     $clinic_address_2 = "Asunción Mita, Jutiapa";
     $clinic_phone = "Tel: 78460525";
-    $logo_path = $_SERVER['DOCUMENT_ROOT'] . "/Clinica-Dental/imagenes/logo.jpg"; 
+    $logo_path = $_SERVER['DOCUMENT_ROOT'] . "/imagenes/logo.jpg"; 
 
     // Verificar que la imagen del logo existe
     if (!file_exists($logo_path)) {

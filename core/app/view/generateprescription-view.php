@@ -3,10 +3,24 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-include_once $_SERVER['DOCUMENT_ROOT'] . "/Clinica-Dental/core/autoload.php";
-include_once $_SERVER['DOCUMENT_ROOT'] . "/Clinica-Dental/core/controller/Executor.php";
-include_once $_SERVER['DOCUMENT_ROOT'] . "/Clinica-Dental/core/app/model/PacientData.php";
-include_once $_SERVER['DOCUMENT_ROOT'] . "/Clinica-Dental/core/app/model/MedicData.php";
+
+$baseDir = $_SERVER['DOCUMENT_ROOT'] . "/";
+
+$files = [
+    "core/autoload.php",
+    "core/controller/Executor.php",
+    "core/app/model/PacientData.php",
+    "core/app/model/MedicData.php"
+];
+
+foreach ($files as $file) {
+    $filePath = $baseDir . $file;
+    if (file_exists($filePath)) {
+        include_once $filePath;
+    } else {
+        echo "Warning: El archivo $filePath no existe.<br>";
+    }
+}
 
 $pacients = PacientData::getAll();
 $medics = MedicData::getAll();
@@ -40,7 +54,7 @@ $medics = MedicData::getAll();
             <h4 class="title">Generar Receta Médica</h4>
           </div>
           <div class="card-content table-responsive">
-            <form action="/Clinica-Dental/report/generate_pdf.php" method="post">
+            <form action="/report/generate_pdf.php" method="post">
               <div class="form-group">
                 <label for="pacient_id">Nombre del Paciente:</label>
                 <select class="form-control" id="pacient_id" name="pacient_id" required>

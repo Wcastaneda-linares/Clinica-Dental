@@ -100,7 +100,7 @@ $payments = PaymentData::getAll();
     <label for="inputEmail1" class="col-lg-2 control-label">Costo</label>
     <div class="col-lg-10">
 <div class="input-group">
-  <span class="input-group-addon"><i class="fa fa-usd"></i></span>
+  <span class="input-group-addon"><i class="fa fa-money"></i></span>
   <input type="text" class="form-control" value="<?php echo $reservation->price;?>" name="price" placeholder="Costo">
 </div>
     </div>

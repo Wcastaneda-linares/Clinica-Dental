@@ -6,7 +6,7 @@ class Database {
 	// Cambiar el nombre del constructor
 	function __construct(){
 		$this->user = "root";
-		$this->pass = "123";
+		$this->pass = "";
 		$this->host = "localhost";
 		$this->ddbb = "citas_medicas";
 	}
